@@ -5,7 +5,7 @@
   "main": "server/index.ts",
   "scripts": {
     "dev": "vite",
-    "build": "prisma generate && tsc && vite build",
+    "build": "node ./node_modules/prisma/build/index.js generate && node ./node_modules/typescript/bin/tsc && node ./node_modules/vite/bin/vite.js build",
     "preview": "vite preview",
     "server": "ts-node-dev server/index.ts",
     "prisma:push": "prisma db push",

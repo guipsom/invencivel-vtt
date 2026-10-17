@@ -1,5 +1,0 @@
-# 1. Instalar o pnpm globalmente caso não tenha
-npm install -g pnpm
-
-# 2. Gerar o ficheiro pnpm-lock.yaml
-pnpm install
